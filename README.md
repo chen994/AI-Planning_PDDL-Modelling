@@ -23,7 +23,7 @@ Once the actions are modeled, specify and test the following tasks:
 * (a) A customer *can* create an iced drink with tea, mango tapioca balls, and mango syrup.
 * (b) A customer *cannot* create an iced drink with tea, ice, and two different flavors of syrup.
 
-[Domain_task1.PDDL](domain_task1.PDDL) specifies the Domain and [task1_Fa.PDDL](task1_Fa.PDDL) [task1_Fb.PDDL](task1_Fb.PDDL) specifies the Problem (a) and (b).
+[Domain_task1.pddl](domain_task1.pddl) specifies the Domain and [task1_Fa.pddl](task1_Fa.pddl) [task1_Fb.pddl](task1_Fb.pddl) specifies the Problem (a) and (b).
 
 #### Task 2
 Model heating the cup in the microwave, and mixing the ingredients of the cup.
@@ -32,7 +32,7 @@ Once the actions are modeled, specify and test the following tasks:
 * (a) A customer can create a mixed drink with unheated tea, heated mango tapioca balls, unheated mango syrup, and no ice.
 * (b) A customer can create a mixed drink with no tapioca balls, unheated mango syrup, unheated lime syrup, and ice. (Rule 4 in Problem Description enables 2 syrups in one drink).
 
-[Domain_task2.PDDL](domain_task2.PDDL) specifies the Domain and [task2_Fa.PDDL](task2_Fa.PDDL) [task2_Fb.PDDL](task2_Fb.PDDL) specifies the Problem (a) and (b).
+[Domain_task2.pddl](domain_task2.pddl) specifies the Domain and [task2_Fa.pddl](task2_Fa.pddl) [task2_Fb.pddl](task2_Fb.pddl) specifies the Problem (a) and (b).
 
 #### Task 3
 The owners developing the robot have noticed that if the cup is heated in the microwave, the cup becomes too hot to handle. Fortunately, they have just upgraded the robot so that it can use two cups at a time.
@@ -44,7 +44,7 @@ Once the actions are modeled, specify and test the following tasks:
 * (a) A customer can create a mixed drink with unheated tea, heated mango tapioca balls, unheated mango syrup, no ice, and an unheated cup. This is the same as Task 2a but with an unheated cup.
 * (b) A customer can create a mixed drink with no tapioca balls, unheated mango syrup, heated lime syrup, ice, and an unheated cup. This is the same as Task 2b, but with an unheated cup and with heated lime syrup.
 
-[Domain_task3.PDDL](domain_task3.PDDL) specifies the Domain and [task3_Fa.PDDL](task3_Fa.PDDL) [task3_Fb.PDDL](task3_Fb.PDDL) specifies the Problem (a) and (b).
+[Domain_task3.pddl](domain_task3.pddl) specifies the Domain and [task3_Fa.pddl](task3_Fa.pddl) [task3_Fb.pddl](task3_Fb.pddl) specifies the Problem (a) and (b).
 
 
 
